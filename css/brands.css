@@ -142,6 +142,16 @@
 	background-image:linear-gradient(to bottom,#00d64b,#00c244);
 }
 
+/* Codédex */
+.button-codedex {
+	--button-text:#000000;
+	--button-background:transparent;
+	--button-border:1px solid #FFFFFF;
+	background-image:url("../images/codedexcrispback.png");
+	background-size:cover;
+	image-rendering:pixelated;
+}
+
 /* dev.to */
 .button-dev-to {
 	--button-text:#000000;
