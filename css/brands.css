@@ -11,7 +11,7 @@
 .button,button {
     color:var(--button-text,#000000);
     background-color:var(--button-background,transparent);
-    border:1px,solid,grey;
+	border: 1px solid grey;
 	transition:filter 0.2s ease,transform 0.2s ease;
 }
 
@@ -149,7 +149,6 @@
 	--button-border:1px solid #000000;
 	background-image:url("../images/codedexcrispback.png");
 	background-size:cover;
-	image-rendering:pixelated;
 }
 
 /* dev.to */
@@ -460,7 +459,7 @@
 		#4FFF6C 220deg,
 		/* dark after the highlight */
 		#051d23 250deg 360deg
-	  );
+	);
 	--button-border:1px solid #000000;
 }
 
