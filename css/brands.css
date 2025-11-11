@@ -9,9 +9,9 @@
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 /* Only include brand-specific button styling here */
 .button,button {
-  color:var(--button-text,#000000);
-  background-color:var(--button-background,transparent);
-	border:var(--button-border,none);
+    color:var(--button-text,#000000);
+    background-color:var(--button-background,transparent);
+    border:1px,solid,grey;
 	transition:filter 0.2s ease,transform 0.2s ease;
 }
 
@@ -654,5 +654,5 @@
 .button-zoom {
 	--button-text:#ffffff;
 	--button-background:#0B5CFF;
-  --button-border:1px solid #FFFFFF;
+    --button-border:1px solid #FFFFFF;
 }
