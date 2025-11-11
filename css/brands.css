@@ -149,6 +149,10 @@
 	--button-border:1px solid #000000;
 	background-image:url("../images/codedexcrispback.png");
 	background-size:cover;
+	image-rendering: pixelated;
+	.icon{
+		image-rendering: auto;
+	}
 }
 
 /* dev.to */
