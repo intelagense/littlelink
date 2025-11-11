@@ -146,7 +146,7 @@
 .button-codedex {
 	--button-text:#000000;
 	--button-background:transparent;
-	--button-border:1px solid #FFFFFF;
+	--button-border:1px solid #000000;
 	background-image:url("../images/codedexcrispback.png");
 	background-size:cover;
 	image-rendering:pixelated;
@@ -447,6 +447,21 @@
 .button-shop {
 	--button-text:#ffffff;
 	--button-background:#5A31F4;
+}
+
+/* SPS */
+.button-sps {
+	--button-text:#4fff6c;
+	background: conic-gradient(
+		from 0deg at 20% 50%,
+		/* dark before the highlight */
+		#051d23 0deg 180deg,
+		/* bright highlight centered at 225 */
+		#4FFF6C 220deg,
+		/* dark after the highlight */
+		#051d23 250deg 360deg
+	  );
+	--button-border:1px solid #000000;
 }
 
 /* Signal */
